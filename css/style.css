@@ -8,3 +8,14 @@ body {
   padding-bottom: 40px;
   background-color: #121212;
 }
+
+.jumbotron
+{
+	background-color: #222 ;
+	color:#888;
+}
+
+.my-4
+{
+	background-color: #333 ;
+}
