@@ -6,16 +6,21 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #121212;
+  background-color: #f9f9f9;
 }
 
 .jumbotron
 {
-	background-color: #222 ;
-	color:#888;
+	background-color: #fdfdfd;
+	color:#000;
+	padding-bottom: 48px;
 }
 
 .my-4
 {
-	background-color: #333 ;
+	background-color: #fcfcfc;
+}
+
+.btn-light {
+    background-color: #f1f1f1;
 }
