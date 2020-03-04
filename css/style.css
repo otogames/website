@@ -46,6 +46,11 @@ body {
   max-width: 55em;
 }
 
+@media (min-width: 885px) {
+	.cover-container {
+	  min-width: 885px;
+	}
+}
 
 /*
  * Header
