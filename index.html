@@ -12,7 +12,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://otogames.com/css/style.css">
+		<link rel="stylesheet" href="css/style.css">
 		
 		<!-- Social Media Tags -->
 		<meta name="robots" content="all">
@@ -39,20 +39,28 @@
 		<link href="https://otogames.com" rel="canonical">
 		<link href="https://otogames.com" rel="home">
 		
+		<!-- background js  -->
 		<script type="text/javascript">		
-			var bgColorArray = ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/bg1.png','https://s3-us-west-2.amazonaws.com/s.cdpn.io/130527/bg2.png'],
-			selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
-
-			document.body.style.backgroundImage = 'url(' + selectBG + ')';
+			function randombg()
+			{
+			  var random  = Math.floor(Math.random() * 6) + 0;
+			  var bigSize = ["url('imgs/bg1.png')",
+							 "url('imgs/bg2.png')",
+							 "url('imgs/bg3.png')",
+							 "url('imgs/bg4.png')",
+							 "url('imgs/bg5.png')",
+							 "url('imgs/bg6.png')"];
+				document.body.style.backgroundImage=bigSize[random];
+			}
 		</script>
 		
 	</head>
 	
-	<body class="text-center">
+	<body onload="randombg()" class="text-center">
 		<div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="OCover">
 			<header class="masthead mb-auto">
 				<div class="inner">
-					<a class="masthead-brand" href="https://otogames.com"><img src="https://otogames.com/imgs/logo.png" alt="Logo" id="Logo"></a>
+					<a class="masthead-brand" href="https://otogames.com"><img src="imgs/logo.png" alt="Logo" id="Logo"></a>
 					<nav class="nav nav-masthead justify-content-center">
 						<a class="nav-link active" href="https://otogames.com">Home</a>
 						<a class="nav-link" href="https://otogames.com/About">About</a>
