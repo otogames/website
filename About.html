@@ -12,7 +12,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://otogames.com/css/style.css">
+		<link rel="stylesheet" href="css/style.css">
 		
 		<!-- Social Media Tags -->
 		<meta name="robots" content="all">
@@ -43,12 +43,12 @@
 			function randombg()
 			{
 			  var random  = Math.floor(Math.random() * 6) + 0;
-			  var bigSize = ["url('http://placehold.it/300&text=banner1')",
-							 "url('http://placehold.it/300&text=banner2')",
-							 "url('http://placehold.it/300&text=banner3')",
-							 "url('http://placehold.it/300&text=banner4')",
-							 "url('http://placehold.it/300&text=banner5')",
-							 "url('http://placehold.it/300&text=banner6')"];
+			  var bigSize = ["url('imgs/bg1.png')",
+							 "url('imgs/bg2.png')",
+							 "url('imgs/bg3.png')",
+							 "url('imgs/bg4.png')",
+							 "url('imgs/bg5.png')",
+							 "url('imgs/bg6.png')"];
 				document.body.style.backgroundImage=bigSize[random];
 			}
 		</script>
@@ -68,12 +68,12 @@
 			</header>
 	
 			<main role="main" class="inner cover">
-				
-				  <h1 class="display-4">One Thousand and One Games</h1>
-				  <p class="lead">
-				  This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-				  </p>
-
+				<div class="jumbotron">
+				  <h1>One Thousand and One (OTO) Games</h1>
+				  <hr class="my-4">
+				  <p class="lead" style="margin-bottom: 2rem;">We are an independent video game developer making exciting new games with very <b>ORIGINAL</b> gameplay, story and mechanics and <b>high-quality</b> 3d graphics for mobile and other platforms</p>
+				  <p class="lead">Join our journy by following us on socal meadia we love to hear your feedback.</p>
+				</div>
 			</main>
 			
 			<footer class="mastfoot mt-auto">
