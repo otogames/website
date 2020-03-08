@@ -4,10 +4,10 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="One Thousand and One Games (OTO) is an independent video game developer specializes in making high-quality mobile games">
+		<meta name="description" content="About One Thousand and One (OTO) Games">
 		<link rel="icon" type="image/x-icon" href="imgs/favicon.ico"/>
 		<meta name="author" content="OTO Games">
-		<title>OTO Games - Home</title>
+		<title>OTO Games - About</title>
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,23 +21,22 @@
 		<meta property="og:site_name" content="OTO Games">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://otogames.com/">
-		<meta property="og:title" content="OTO Games - Home">
-		<meta property="og:description" content="One Thousand and One Games (OTO) is an independent video game developer specializes in making high-quality mobile games">
+		<meta property="og:title" content="OTO Games - About">
+		<meta property="og:description" content="About One Thousand and One (OTO) Games">
 		<meta property="og:image" content="https://otogames.com/imgs/card1200.png">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@oto_games">
 		<meta name="twitter:creator" content="OTO Games">
-		<meta name="twitter:title" content="OOTO Games - Home">
+		<meta name="twitter:title" content="OOTO Games - About">
 		<meta name="twitter:description" content="One Thousand and One Games (OTO) is an independent video game developer specializes in making high-quality mobile games">
 		<meta name="twitter:image" content="https://otogames.com/imgs/card800.png">
 		<meta name="twitter:image:width" content="800">
 		<meta name="twitter:image:height" content="418">
 		<meta property="twitter:account_id" content="1191370310991466496" />
 		<meta name="google-site-verification" content="">
-		<link href="https://otogames.com/" rel="canonical">
-		<link href="https://otogames.com/" rel="home">
+		<link href="https://otogames.com/About.html" rel="canonical">
 	</head>
 	
 	<body class="text-center">
